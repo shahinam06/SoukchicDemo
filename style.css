@@ -1,0 +1,166 @@
+label.error.fail-alert {
+    /* border: 2px solid red; */
+    border-radius: 4px;
+    color: red;
+    line-height: 1;
+    padding: 2px 0 6px 6px;
+    background: #ffe6eb;
+    }
+/* .text-white{
+    background: #65bebe;
+} */
+
+
+/* .body{
+    font-family: "Poppins"!important;
+} */
+.sell{
+    background: #f06a89;
+    color: white;
+    justify-content: center;
+}
+.start:hover{
+color:black;
+cursor: pointer;
+}
+.search{
+    /* text-decoration: none; */
+    outline: none;
+    border: 1px solid #65bebe;
+    border-radius: 25px;
+    width: 740px;
+    height: 40px;
+    padding-left: 4%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    /* margin-bottom: 3%; */
+    margin-left:-36%
+}
+.icon{
+    color: #65bebe;
+    padding-right: 15%;
+    /* border-color: 1px solid black; */
+}
+
+.icon:hover{
+    cursor:pointer;
+}
+
+.logo:hover{
+    cursor:pointer;
+}
+
+.imageSwiper:hover{
+    cursor:pointer;
+    width: 113px!important;
+    height: 113px!important;
+}
+
+.imageTitle:hover{
+    color: #65bebe;
+}
+
+.swiper-button-prev::after{
+font-size: 15px!important;
+    position: absolute;
+    top: -10%;
+    left: -35%;
+    font-weight: bolder;
+}
+
+.swiper-button-next::after{
+    font-size: 15px!important;
+        position: absolute;
+        top: -10%;
+        right: -38%;
+        font-weight: bolder;
+    }
+
+.favourite{
+position: absolute;
+top: 5%;
+right: 10%;
+color: grey
+}
+.promotions{
+    padding-left:5%;
+    font-weight: 700;
+}
+.deals{
+    cursor: pointer;
+    border: white;
+}
+.deals:hover{
+   border: 2px solid #65bebe;
+}
+
+.button{
+    border: none;
+    border-radius: 20px;
+    color: #66bfbf;
+    background: #cff5f5;
+    font-weight: 400!important;
+    font-size: 12px;
+}
+
+.sellers:hover{
+    cursor: pointer;
+}
+
+.carousel1:hover{
+    cursor: pointer;
+}
+
+.shop:hover{
+    cursor: pointer;
+}
+.exclusive:hover{
+    cursor: pointer;
+}
+.collapse ul li a:hover{
+	background: #5babab;
+}
+
+
+/* .MultiCarousel { float: left; overflow: hidden; padding: 15px; width: 100%; position:relative; }
+    .MultiCarousel .MultiCarousel-inner { transition: 1s ease all; float: left; }
+        .MultiCarousel .MultiCarousel-inner .item { float: left;}
+        .MultiCarousel .MultiCarousel-inner .item > div { text-align: center; padding:10px; margin:10px; color:#666;}
+    .MultiCarousel .leftLst, .MultiCarousel .rightLst { 
+        position:absolute; 
+        border: none;
+        background: white;
+        font-weight: 1000;
+        top:calc(30%);
+    }
+    .MultiCarousel .leftLst { left:0; }
+    .MultiCarousel .rightLst { right:0; }
+    
+        .MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; } */
+
+.swiper-slide{
+    flex-shrink: 0;
+}
+/* .swiper{
+    width: 1500px;
+} */
+
+/* media queries*/
+@media (max-width: 1200px){
+    .searchBar{
+        display: none;
+    }
+}
+
+@media (max-width: 1050px){
+    .swiper{
+        display: none;
+    }
+}
+
+
+@media (max-width: 969px) and (min-width: 768px){
+    .icons{
+        display: none;
+    }
+}
